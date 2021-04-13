@@ -1,0 +1,12 @@
+int linearsearch(int *a,int i,int n,int key)
+{
+if(i==n){
+return -1;
+}
+
+if(a[i]==key)
+{
+return i;
+}
+return linearsearch(A,i+1,n,key);
+}
